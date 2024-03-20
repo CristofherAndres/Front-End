@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - Introducción al CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            color: brown;
+            background-color: violet;
+            font-size: 20px;
+            margin: 1em;
+        }
+        body {
+            background-color: gray;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #p1{
+            color: red;
+            font-size: 50px;
+        }
+        .prueba{
+            color: blue;
+            background-color: white;
+        }
+        div h1{ 
+            color: green;
+        }
+
+        div p.colorSalmon{
+            color: salmon !important;
+            font-size:50px;
+        }
+
+        p:hover{
+            background-color: yellow;}
+
+    </style>
+</head>
+<body>
+    <h1 style="color: cyan;">Bienvenidos a mi sitio web</h1>
+    <h2 style="font-size: 32px; color: red;">Pagina creada por Cristofher</h2>
+
+<!-- Negrita, cursiva, subrayado, subíndice, superindice, marcado, tachado -->
+
+    <p> <b>Lorem ipsum dolor</b> <em>sit amet consectetur </em>adipisicing <u>elit</u>. <sub>15</sub>  Est similique quidem <sup>26</sup>  <mark>facere?</mark>  <del>Nobis nisi cum facere</del>  corrupti quaerat voluptatum <s> veniam enim, similique</s>, atque eaque fugiat quas maiores illum libero aperiam.</p>
+
+    <p id="p1">Parrafo 1</p>
+    <p id="p2">Parrafo 2</p>
+
+    <h1 class="prueba colorSalmon">Ejemplo 2</h1>
+    <p class="prueba">Parrafo 3</p>
+    <h2 class="prueba">Probando</h2>
+
+    <div>
+        <h1>Ejemplo 3</h1>
+        <p class="colorSalmon"> Parrafo 4</p>
+    </div>
+
+</body>
+</html>

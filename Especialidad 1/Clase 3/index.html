@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando CSS</title>
+
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 5rem;
+    }
+    h1 {
+        color: brown !important;
+        background-color: yellow;
+        border: 1px solid blue ;
+        font-family: "Lovers Quarrel", cursive;
+    }
+
+    h2 {
+        font-family: "Permanent Marker", cursive;
+        color: blue;
+    }
+    #parrafo1 {
+        color: green;
+        font-size: x-large;
+    }
+    .texto {
+        text-align: center;
+        color: tomato;
+        background-color: lime;
+    }
+    h2.texto {
+        color: white;
+        background-color: black;
+    }
+    h2.texto:hover {
+        color: black;
+        background-color: white;
+    }
+
+    div div p{
+        text-align: end;
+        color: cyan;
+        background-color: darkviolet;
+    }
+
+
+
+</style>
+
+<body>
+
+    <h1 class="texto">Titulo</h1>
+    <h2 class="texto">Subtitulo</h2>
+    <h2>Bienvidos</h2>
+    <p id="parrafo1" class="texto">Prueba de párrafo</p>
+    <p id="parrafo2" class="texto">Prueba de párrafo 2</p>
+
+    <div>
+        <div>
+            <p>Es una prueba</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

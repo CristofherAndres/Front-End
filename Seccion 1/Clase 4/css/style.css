@@ -1,0 +1,50 @@
+h1 {
+	/* Se le aplica un estilo a todos los h1 que se encuentre */
+	color: royalblue; /* Cambiar el color del texto */
+	font-size: 50px; /* Tamaño de la fuente */
+	font-family: Arial; /* Tipo de fuente */
+	text-align: center; /* Alineación del texto */
+	margin-top: 2em !important; /* Margen superior */
+}
+
+h1.borde {
+	/* Se le aplica un estilo a todos los h1 que tengan la clase "borde" */
+	border: 2px solid black; /* Agregar un borde */
+	padding: 2rem; /* Agregar un relleno */
+	margin: 0 5rem; /* Agregar un margen */
+	font-family: 'Madimi One', sans-serif;
+}
+
+p.borde {
+	border: 1px solid red;
+	padding: 1rem 0;
+	margin: 1rem 5rem 0;
+}
+
+.bordeRedondo {
+	border: 5px solid blue;
+	border-radius: 10px;
+}
+
+.bordeIzquierda {
+	padding-left: 1em;
+	border-left: 6px solid green;
+	border-radius: 10px;
+}
+
+div {
+	width: 320px;
+	padding: 10px; /* Se añaden en total 20px de padding */
+	border: 5px solid black; /* Se añade un borde de 5px */
+	margin: 0;
+}
+
+img, div {
+    display: block;
+    margin: 0 auto;
+}
+
+img{ /* redondear los borde de la imagen */
+    border-radius: 50%;
+
+}

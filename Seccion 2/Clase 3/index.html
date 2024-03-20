@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - Introducción al CSS</title>
+    <style>
+        * { /* Todos los elementos */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Modificar todos los etiquetas que sean p */
+        p {
+            color: blue;
+            font-size: 20px;
+            background-color: yellow;
+            margin: 1em;
+        }
+
+        #p1 {
+            font-size: 50px;
+            color: red;
+        }
+
+        .clase1 {
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: black;
+        }
+
+        div h1{
+            color: chartreuse;
+            background-color: chocolate;
+        }
+
+        div p.clase1{
+            color: palevioletred;
+        }
+
+        p:hover {
+            background-color: beige;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 style="color: brown;">Bienvenido a mi sitio web</h1>
+    <h2 style="font-size: 30px; color:red;">Página creada por Cristofher</h2>
+
+    <!-- Negrita, cursiva, subindice, superindice, subrayado, marcado y tachado -->
+
+    <p><b>Lorem ipsum dolor sit</b> <em>amet consectetur adipisicing elit</em>. <sub>5</sub> <sup>12</sup> Quisquam
+        dolor <u>repellendus aut expedita</u> <mark>deserunt tempora</mark> , <del> perspiciatis non earum</del>, ex
+        praesentium unde minus consequatur! Ipsa adipisci enim aliquid deserunt, dolor non!</p>
+
+    <p id="p1">Parrafo 1</p>
+    <p id="p2">Parrafo 2</p>
+
+    <h1 class="clase1">Ejemplo 2</h1>
+    <h2 class="clase1">Ejemplo 2</h2>
+    <p class="clase1">Ejemplo 2</p>
+
+    <div>
+        <h1>Ejemplo 3</h1>
+        <p class="clase1">Ejemplo 3</p>
+    </div>
+
+</body>
+
+</html>

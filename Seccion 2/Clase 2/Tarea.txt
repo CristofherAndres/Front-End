@@ -1,0 +1,13 @@
+Ejercicio
+
+Crear un sitio web de presentacion
+
+Titulo y el icono (Navegador)
+Titulo de la pagina (h1)
+Subtitulo de la pagina (h2)
+
+Agregar una imagen de presentacion
+Agregar una descripcion de la pagina
+
+agregar 2 listas
+Agregar un enlace que me lleve a sus redes sociales

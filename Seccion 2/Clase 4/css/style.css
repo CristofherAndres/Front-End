@@ -1,0 +1,45 @@
+h1.borde { /* Busca un h1 con clase borde */
+    border: 2px solid black;
+    padding: 2em; /* Agrego relleno dentro del borde */
+    margin: 1em; /* Agregar una separación de otro elemento */
+}
+
+p.borde{
+    border: 1px solid red;
+    padding: 0 1em;
+    margin: 1em 5em 0;
+}
+
+.bordeRedondo{
+    border: 5px solid blue;
+    border-radius: 50px; /* Hace que el borde sea redondo */
+}
+
+.bordeIzquierda{
+    border-left: 5px solid green;
+    padding-left: 0.5em;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Rubik Doodle Shadow", system-ui; /* Cambia el tipo de fuente */
+    color: royalblue; /* Cambia el color de la fuente */
+    font-size: 50px; /* Cambia el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+}
+
+div {
+    width: 320px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+/* Como centrar el div y la imagen */
+img, div {
+    display: block;
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+}

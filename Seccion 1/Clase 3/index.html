@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - Introducción al CSS</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: gray;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p { 
+            font-size: 20px;
+            background-color: yellow;
+            margin: 1em;
+        }
+        p:hover{
+            background-color: black;
+            color: white;
+        }
+        #p1 {
+            color: red;
+        }
+        .colorSalmon {
+            color: salmon;
+        }
+        div{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div h1{
+            color: blue;
+        }
+
+        div p.colorSalmon{
+            font-size: 30px;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <h1 class="colorSalmon">Bienvenidos a mi sitio web</h1>
+
+    <h2 style="font-size: 30px; color: aqua;">Pagina creada por Cristofher</h2>
+
+<!-- Agregar las etiquetas de negrita, cursiva, subindice, superindice, subrayada, tachado y marcado -->
+
+    <p id="lorem" class="colorSalmon"> <b>Lorem ipsum</b>  <em>dolor sit amet consectetur</em> adipisicing elit.  <sub>23</sub>Nemo doloremque <sup>25</sup>dicta nam consequatur, <u>iure facili</u> s assumenda asperiores! In, <s>maiores atque veniam voluptate</s> modi quibusdam expedita, suscipit <mark> voluptas iure a hic</mark>. </p>
+
+    <p id="p1">Parrafo 1</p>
+    <p id="p2" class="colorSalmon">Parrafo 2</p>
+
+    <div>
+        <h1>Ejemplo 2</h1>
+        <p class="colorSalmon">Parrafo 3</p>
+        <p>OTra vosa</p>
+    </div>
+</body>
+</html>
