@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: yellow;
+    color: purple;
+    margin-left: 15em;
+}
+
+h1{
+    color: black;
+    font-family: "Hurricane", cursive;
+}
+
+p{
+    font-family: "Roboto-100", sans-serif;
+}
+
+.urgente{
+    color: red;
+    font-size: 20px
+}
+
+ul.navbar {
+    position: absolute;
+    left: 1em;
+    top: 4em;
+}
+
+ul.navbar li {
+    background-color: white;
+    padding: 0.3em 1em;
+    margin: 0.5em 0;
+    border-right: 1em solid green;
+}
+
+a:link{
+    color: chocolate;
+}
+a:visited{
+    color: palevioletred;
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
