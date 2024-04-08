@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* { /* Seleccoiona todos los elemmentos */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: relative;
+    background-color: #F44336;
+    height: 120px;
+    width: auto;
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+#navegacion{
+    position: relative;
+    width: 1000px;
+    float: right;
+    margin: 36px 12px;
+    height: 48px;
+}
+
+.botones{
+    float: left;
+    background-color: rgb(100,0,255);
+    margin: 0 2px;
+    width: 196px;
+    color: white;
+    line-height: 48px;
+}
+
+ul {
+    float: right;
+}
+
+article h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+
+section{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 500px;
+}
+
+aside#izq{
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 0;
+    height: 500px;
+}
+
+article{
+    position: absolute;
+    width: 1000px;
+    left: 100px;
+}
+
+aside#der{
+    position: absolute;
+    width: 100px;
+    right: 0;
+    top: 0;
+    height: 500px;
+}
+
+article p{
+    margin: 5px 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+article p img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(100,0,255);
+    line-height: 70px;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
