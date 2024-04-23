@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h2>Mi primer formulario</h2>
+    <form> <!-- form para abrir y cerrar un formulario -->
+        <br>
+        <label for="nombreUsuario">Nombre usuario: </label> <!-- label para etiquetar un input -->
+        <input type="text" id="nombreUsuario"> <!-- input para ingresar texto -->
+        <br><br>
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" required> <!-- required es obligatorio -->
+        <br><br>
+        <label for="email">Correo Electronico: </label>
+        <input type="email" id="email">
+        <br><br>
+        <input type="submit"> <!-- input para enviar el formulario -->
+    </form>
+
+
+    <hr>
+    <h2>¿Cual es tu personaje favorito?</h2>
+    <form>
+        <input type="radio" name="perFav" id="goku">
+        <label for="goku">Goku</label>
+        <input type="radio" name="perFav" id="naruto">
+        <label for="naruto">Naruto</label>
+        <input type="radio" name="perFav" id="luffy">
+        <label for="luffy">Luffy</label>
+        <input type="radio" name="perFav" id="saitama">
+        <label for="saitama">Saitama</label>
+        <input type="radio" name="perFav" id="vegeta">
+        <label for="vegeta">Vegeta</label>
+    </form>
+    
+    <hr>
+    <h2>¿Cuales son tus personaje favorito?</h2>
+    <form >
+
+        <input type="checkbox" name="perFav2" id="goku"> <!-- checkbox para seleccionar varias opciones -->
+        <label for="goku">Goku</label>
+        <input type="checkbox" name="perFav2" id="naruto">
+        <label for="naruto">Naruto</label>
+        <input type="checkbox" name="perFav2" id="luffy">
+        <label for="luffy">Luffy</label>
+
+    </form>
+
+</body>
+
+</html>

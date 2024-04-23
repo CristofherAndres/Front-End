@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+
+<body>
+    <h2>Mi primer formulario</h2>
+    <br>
+    <form>
+        <label for="nombre"><b>Nombre Usuario:</b> </label> <!-- Etiqueta para referencia del input -->
+        <input type="text" id="nombre" required> <!-- Entrada de datos al formulario -->
+        <br><br>
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" minlength="10">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" minlength="10">
+        <br><br>
+        <input type="submit">
+    </form>
+    <hr>
+    <h1>¿Indica tu personaje favorito?</h1>
+    <form>
+        <input type="radio" name="personajeFav" id="goku">
+        <label for="goku">Goku</label>
+        <input type="radio" name="personajeFav" id="naruto">
+        <label for="naruto">Naruto</label>
+        <input type="radio" name="personajeFav" id="luffy" checked>
+        <label for="luffy">Luffy</label>
+    </form>
+
+    <hr>
+
+    <h2>Indica tus personajes favoritos:</h2>
+    <form >
+
+        <input type="checkbox" name="goku" id="goku">
+        <label for="goku">Goku</label>
+        <input type="checkbox" name="naruto" id="naruto">
+        <label for="naruto">Naruto</label>
+        <input type="checkbox" name="luffy" id="luffy">
+        <label for="luffy">Luffy</label>
+
+    </form>
+
+
+
+
+    <br><br><br><br>
+
+
+
+
+</body>
+
+</html>

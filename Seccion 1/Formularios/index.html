@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+
+<body>
+    <br><br>
+    <form> <!-- Etiqueta de formulario -->
+        <label for="nombreUsuario">Nombre de usuario: </label> <!-- Una etiqueta para el nombre del campo -->
+        <input type="text" id="nombreUsuario"> <!-- Campo de texto para enviar un dato de tipo texto -->
+
+        <br> <!-- Salto de línea -->
+        <br>
+        <!-- Campo para la contraseña -->
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password">
+
+        <br><br>
+        <label for="correoElectrico">Correo Electrico: </label>
+        <input type="email" id="correoElectrico" required>
+
+        <br><br>
+        <input type="submit">
+
+    </form>
+
+    <br><br>
+    <hr>
+    <br><br>
+
+
+    <h2>¿Cual es tu lenguaje de programación favorito?</h2>
+    <form>
+        <!-- Los radio necesitan el mismo name, para enlazarse opciones a misma pregunta -->
+        <input type="radio" name="lenguajeFav" id="html" value="HTML" >
+        <label for="html">HTML</label>
+        <input type="radio" name="lenguajeFav" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" name="lenguajeFav" id="js" value="JS" checked>
+        <label for="css">JS</label>
+    </form>
+
+    <br><br>
+    <hr>
+    <br><br>
+
+    <h2>Indica cuales son tus lenguajes favoritos: </h2>
+    <form>
+        <input type="checkbox" name="favoritos" id="html" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="favoritos" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="favoritos" id="js" value="JS">
+        <label for="js">JS</label>
+    </form>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>
